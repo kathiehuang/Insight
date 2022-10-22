@@ -1,0 +1,79 @@
+h1{
+    font-family:Arial;
+    text-align:center;
+    margin:0px;
+}
+
+.page{
+    background-color: #DAF0F7;
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.card{
+    margin-top:30px;
+    background-color:white;
+    min-width:30vw;
+    display:flex;
+    border-style:solid;
+    border-color:black;
+    border-radius:3px;
+    flex-direction:column;
+    color:black;
+    overflow:hidden;
+    padding:10px;
+    text-align:center;
+
+}
+
+.card h1{
+    font-weight:bold;
+    margin:0px;
+    font-size:30px;
+}
+
+.card p{
+    font-size:15px;
+    text-align:left;
+}
+
+.card hr{
+    width:90%;
+    background-color:lightcyan;
+    height:1px;
+    margin:0px;
+}
+
+.news{
+    min-height:40vh;
+    display:flex;
+    background-color:#A8B5E0;
+    flex-direction:column;
+    justify-content:center;
+    width:100%;
+    text-align:center;
+    align-items:center;
+    padding:40px;
+}
+
+.news button{
+    width:100px;
+    height:40px;
+
+}
+
+.news h1{
+    margin-bottom:20px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+h2{
+    font-size:30px;
+}
